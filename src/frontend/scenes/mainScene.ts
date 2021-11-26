@@ -38,7 +38,7 @@ export default class MainScene extends Phaser.Scene {
 
   create() {
     //console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-    this.add.text(500,300,"KRESS anywhere to hop", {fontSize:"50px"}).setOrigin(.5,.5)
+    this.add.text(500,300,"KRESS anywhere to JUMP", {fontSize:"100px"}).setOrigin(.5,.5)
 
     this.playerLabel =  this.add.text(-50,-50," this is you").setOrigin(.5,1)
     this.playersConnectedText = this.add.text(20,20,"")
