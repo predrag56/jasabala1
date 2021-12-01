@@ -6,7 +6,7 @@ const DEFAULT_WIDTH = 1024
 const DEFAULT_HEIGHT = 800
 
 const config: Phaser.Types.Core.GameConfig = {
-  backgroundColor: '#fff001',
+  backgroundColor: '#000001',
   scale: {
     parent: 'phaser-game',
     mode: Phaser.Scale.FIT,
